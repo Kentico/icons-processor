@@ -1,0 +1,21 @@
+{
+  "name": "iconsProcessor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/main.ts",
+  "scripts": {
+    "do": "npm install --no-optional&&ts-node ./src/main.ts",
+    "test": "ts-node ./src/main.ts"
+  },
+  "author": "Draft",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "8.0.34",
+    "append-stream": "1.2.2",
+    "fs-readfile-promise": "3.0.0",
+    "fs-writefile-promise": "2.0.0",
+    "ts-node": "3.3.0",
+    "typescript": "2.5.3",
+    "zip-dir": "1.0.2"
+  }
+}

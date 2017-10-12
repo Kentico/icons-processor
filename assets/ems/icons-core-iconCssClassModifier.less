@@ -1,0 +1,24 @@
+[class^="icon-"],
+[class*=" icon-"] {
+	display: inline-block;
+	font-family: "core-icons";
+	// Better Font Rendering in Chrome
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	line-height: 1;
+	text-transform: none;
+	speak: none;
+}
+
+
+[class^="icon-"]:before {
+	content: @icon-square;
+}
+
+
+.icon-only:before {
+	content: none;
+}
