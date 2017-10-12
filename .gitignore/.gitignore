@@ -1,0 +1,11 @@
+node_modules/*
+npm-debug.log.*
+.idea/*
+!.idea/codeStyleSettings.xml
+!.idea/typescript-compiler.xml
+!.idea/inspectionProfiles
+!.idea/jsLibraryMappings.xml
+!.idea/misc.xml
+!.idea/runConfigurations
+!.idea/libraries
+*.orig
