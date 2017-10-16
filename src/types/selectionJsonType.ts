@@ -1,17 +1,17 @@
 export type SelectionJson = {
-    readonly icons: Array<IconItem>;
+  readonly icons: Array<IconItem>;
 }
 
 export type IconItem = {
-    readonly icon: IconDetail;
-    readonly properties: IconItemProperty;
+  readonly icon: IconDetail;
+  readonly properties: IconItemProperty;
 }
 
 type IconDetail = {
-    readonly tags: Array<string>;
+  readonly tags: Array<string>;
 }
 
 type IconItemProperty = {
-    readonly name: string;
-    readonly code: number;
+  readonly name: string;
+  readonly code: number;
 }

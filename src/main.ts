@@ -1,3 +1,3 @@
-import {generateIconVariablesFile} from './iconVariablesGenerator';
+import { processIcons } from './iconsProcessor';
 
-generateIconVariablesFile();
+processIcons();
