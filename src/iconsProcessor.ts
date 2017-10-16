@@ -1,7 +1,6 @@
 import * as path from 'path';
 import * as fs from 'fs';
 import * as archiver from 'archiver';
-import { readFilePromise } from './shared/fileSystem';
 import {
   IconItem,
   SelectionJson,
@@ -30,6 +29,19 @@ function compareIconNames(iconA: IconItem, iconB: IconItem): -1 | 0 | 1 {
   else {
     return 0;
   }
+}
+
+function readFilePromise(fileName: fs.PathLike, options: { encoding?: string; flag?: string; } = { encoding: 'utf8' }): Promise<any> {
+  return new Promise((resolve, reject) => {
+    fs.readFile(fileName, options, (err: NodeJS.ErrnoException, data: any) => {
+      if (err) {
+        reject(err);
+      }
+      else {
+        resolve(data);
+      }
+    });
+  });
 }
 
 export async function processIcons(): Promise<void> {
