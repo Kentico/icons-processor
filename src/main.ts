@@ -1,3 +1,1 @@
-import { processIcons } from './iconsProcessor';
-
-processIcons();
+import { processIcons } from './iconsProcessor';processIcons();

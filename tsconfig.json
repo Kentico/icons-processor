@@ -1,18 +1,1 @@
-{
-  "compilerOptions": {
-    "target": "ESNext",
-    "sourceMap": true,
-    "strictNullChecks": true,
-    "noImplicitReturns": true,
-    "noFallthroughCasesInSwitch": true,
-    "noUnusedParameters": false,
-    "noUnusedLocals": false,
-    "allowUnreachableCode": false,
-    "allowUnusedLabels": false,
-    "allowJs": false,
-    "forceConsistentCasingInFileNames": true,
-    "types": [
-      "node"
-    ]
-  }
-}
+{  "compilerOptions": {    "target": "ESNext",    "sourceMap": true,    "strictNullChecks": true,    "noImplicitReturns": true,    "noFallthroughCasesInSwitch": true,    "noUnusedParameters": false,    "noUnusedLocals": false,    "allowUnreachableCode": false,    "allowUnusedLabels": false,    "allowJs": false,    "forceConsistentCasingInFileNames": true,    "types": [      "node"    ]  }}
