@@ -1,1 +1,1 @@
-import { processIcons } from './iconsProcessor';processIcons();
+import { processIcons } from './iconsProcessor';const args = process.argv.splice(process.execArgv.length + 2);/*  args[0] should contain path to selection.json. Otherwise 'defaultIconsSelectionJsonSource/selection.json' is used  args[1] should contain path to destination file with icon variables. Otherwise 'defaultIconVariablesOutput/icon-variables.less' is used.*/processIcons({  customIconsSelectionPath: args[0],  customIconVariablesOutputPath: args[1],});

@@ -11,5 +11,5 @@ npm-debug.log.*
 !.idea/libraries
 *.orig
 npm-debug.log
-input/
-output/
+defaultIconsSelectionJsonSource/*
+defaultIconVariablesOutput/*
