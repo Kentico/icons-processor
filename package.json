@@ -1,0 +1,16 @@
+{
+  "name": "icons-processor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/main.ts",
+  "scripts": {
+    "start": "ts-node ./src/main.ts"
+  },
+  "author": "Draft",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "8.10.11",
+    "ts-node": "6.1.0",
+    "typescript": "2.9.1"
+  }
+}
